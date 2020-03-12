@@ -1,0 +1,29 @@
+{
+  "name": "updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nijamudeen96/updater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nijamudeen96/updater/issues"
+  },
+  "homepage": "https://github.com/Nijamudeen96/updater#readme",
+  "devDependencies": {
+    "electron": "^8.1.1",
+    "electron-builder": "^22.4.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.2.5"
+  }
+}
